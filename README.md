@@ -1,18 +1,19 @@
-# Chicago Police Department Overtime Data and Documents
+# Chicago Police Overtime Data and Documents (via Lucy Parsons Labs)
 
-This is just a small repo mirroring and maybe parsing the Chicago PD's overtime payroll data, as [successfully FOIAed](https://twitter.com/lucyparsonslabs/status/1142130197803786241) and published by the [Lucy Parsons Labs](https://www.lucyparsonslabs.com/), a Chicago-based collaborative non-profit focused on civic data and transparency.
+This is just a stub repo mirroring and maybe parsing (and hopefully later exploring) the Chicago PD's overtime payroll data, as [successfully FOIAed](https://twitter.com/lucyparsonslabs/status/1142130197803786241) and published by the [Lucy Parsons Labs](https://www.lucyparsonslabs.com/), a Chicago-based collaborative non-profit focused on civic data and transparency.
 
-## Status
+## Status **[as of June 21, 2019](https://twitter.com/lucyparsonslabs/status/1142130197803786241)**
 
-**[as of June 21, 2019](https://twitter.com/lucyparsonslabs/status/1142130197803786241)**
-
-- [LPL's documents](https://www.documentcloud.org/public/search/projectid:44251-CPD-Overtime-Responsive-Records) include citywide aggregate and per unit data for 2017 through May 2018.
-- This repo mirrors those PDFs, and contains their [conversions to spreadsheet form (as done by ABBYY FineReader](data/parsed/abbyy))
-- TODO: Python script to wrangle the data into a tidy CSV
+- [LPL's documents](https://www.documentcloud.org/public/search/projectid:44251-CPD-Overtime-Responsive-Records) include citywide aggregate and per unit data for **2017 through May 2018.**
+- This repo: 
+    - [mirrors those PDFs](data/originals), 
+    - [converted them to spreadsheet form](data/parsed/abbyy) 
+    - TODO: Python script to wrangle the data into a tidy CSV
 
 ## The Documents
 
-The Lucy Parsons Labs' DocumentCloud folder: https://www.documentcloud.org/public/search/projectid:44251-CPD-Overtime-Responsive-Records
+The Lucy Parsons Labs's DocumentCloud folder: 
+https://www.documentcloud.org/public/search/projectid:44251-CPD-Overtime-Responsive-Records
 
 - [2018 (January-May) Overtime by Unit](https://www.documentcloud.org/documents/6111024-P463184-Overtime-Citywide-by-Unit-2018.html) ([mirror](data/originals/2018-cpd-overtime-by-unit.pdf))
 - [2018 (January-May) Overtime Citywide Aggregate](https://www.documentcloud.org/documents/6164468-Aggregate-Citywide-CPD-Overtime-Data-2018.html) ([mirror](data/originals/2018-cpd-overtime-aggregate.pdf))
@@ -21,7 +22,7 @@ The Lucy Parsons Labs' DocumentCloud folder: https://www.documentcloud.org/publi
 
 ## Some Data
 
-The documents converted to XLSX, via ABBYY FineReader, can be found in [data/parsed/abbyy](data/parsed/abbyy):
+I used ABBYY FineReader to convert the PDFs to XLSX, and the result can be found in [data/parsed/abbyy](data/parsed/abbyy):
 
 - [2018 (January-May) Overtime by Unit](data/parsed/abbyy/2018-05-cpd-overtime-by-unit.xlsx)
 - [2018 (January-May) Overtime Citywide Aggregate](data/parsed/abbyy/2018-05-cpd-overtime-aggregate.xlsx)
