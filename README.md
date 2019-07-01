@@ -2,12 +2,13 @@
 
 This is just a stub repo mirroring and maybe parsing (and hopefully later exploring) the Chicago PD's overtime payroll data, as [successfully FOIAed](https://twitter.com/lucyparsonslabs/status/1142130197803786241) and published by the [Lucy Parsons Labs](https://www.lucyparsonslabs.com/), a Chicago-based collaborative non-profit focused on civic data and transparency.
 
-## Status **[as of June 21, 2019](https://twitter.com/lucyparsonslabs/status/1142130197803786241)**
+## Status **[as of July 1, 2019](https://twitter.com/lucyparsonslabs/status/1142130197803786241)**
 
 - [LPL's documents](https://www.documentcloud.org/public/search/projectid:44251-CPD-Overtime-Responsive-Records) include citywide aggregate and per unit data for **2017 through May 2018.**
 - This repo: 
     - [mirrors those PDFs](data/originals), 
     - [converted them to spreadsheet form](data/parsed/abbyy) 
+    - [converted spreadsheets to plaintext CSV](data/parsed/abbyy)
     - TODO: Python script to wrangle the data into a tidy CSV
 
 ## The Documents
