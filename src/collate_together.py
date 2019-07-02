@@ -50,6 +50,7 @@ def collate_units():
     destname = DEST_DIR / 'cpd-overtime-aggregate.csv'
     with open(destname, 'w') as w:
         o = csv.DictWriter(w, fieldnames=data[0].keys())
+        o.writeheader()
         o.writerows(data)
     print( destname)
 
